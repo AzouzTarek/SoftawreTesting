@@ -1,0 +1,24 @@
+{
+  "name": "integrationtest_js",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "sinon": "^20.0.0",
+    "supertest": "^7.1.0"
+  }
+}
